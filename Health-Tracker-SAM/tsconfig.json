@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "!node_modules/**/*",
+    "app/app.ts",
+    "app/typings/app-fix.d.ts",
+    "typings/underscore/underscore.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts",
+    "typings/browser",
+    "typings/browser.d.ts"
+  ],
+  "compileOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
